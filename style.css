@@ -1,0 +1,94 @@
+body{
+    background-color:hotpink;
+}
+
+
+.div{
+    background-color: hotpink;
+}
+a{
+color: hotpink;
+}
+header{
+    background-image: url("./img/cs1.jpg");
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    color: white;
+    font-size: 400%;
+    height: 700px;
+}
+main{
+    background-color:whitesmoke;
+}
+footer{
+    background-color:#212519;
+    font-size: 100%;
+    color: hotpink;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+a {
+  text-decoration: none; /* eltávolítja az aláhúzást */
+}
+
+/**/
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: hotpink;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  @media screen and (max-width: 300px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+ 
+  .bemutatkozo{
+    background-color: white;
+    }
+    .rekabemutatkozas{
+      text-align: justify;
+     font-size: 150%;
+    }
+    .rekabemutatkozas2{
+    text-align:center;
+     font-size: 150%;
+    }
+    .rekabemutatkozas3{
+    text-align:center;
+     font-size: 130%;
+    }
+    .rekabemutatkozas4{
+    text-align:center;
+     font-size: 200%;
+    }
+  
+    .bemutatkozo2{
+      background-color: #212529;
+      color:hotpink;
+      }
+
+    .fooldal{
+        font-size: 150%;
+      }

@@ -1,0 +1,38 @@
+
+.urlap{
+    width: 100px;
+    margin: auto;
+    background-color: yellowgreen;
+    padding: 20px;
+    border-radius: 1%;   
+}
+.bal{
+    text-align: right;
+}
+
+label, input{
+    padding-right: 10px;
+    padding-left: 10px;
+margin-bottom: 10px;
+display: inline-block;
+}
+
+input[type=email]{
+    width: 100%;
+}
+input[type=jelszo]{
+    width: 35%;
+}
+
+input[type=evsz]{
+    width: 88%;
+}
+input[type=number]{
+    width: 88%;
+}
+textarea{
+    background-color: whitesmoke;
+}
+.button{
+    color: red;
+}
