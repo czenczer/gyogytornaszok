@@ -52,3 +52,6 @@
 .header__menu > .select.select--with-icon {
 	display: none;
 }
+body{
+    background-color: #243062;
+}
