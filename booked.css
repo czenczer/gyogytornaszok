@@ -1,0 +1,54 @@
+:root {
+    background-image: url("https://dl.dropbox.com/s/3w9dp5x6ioy4slu/ind%C3%A1s%20h%C3%A1tt%C3%A9r.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #243062;
+    --dark-text-color: #fff;
+    --light-text-color: #fff;
+    --primary-button-bg-color: #D2091E;
+    --primary-button-bg-hover-color: #D2091E;
+    --primary-select-color: #D2091E;
+    --secondary-select-color: #D2091E;
+    --active-green-color: #D2091E;
+
+  }
+
+.App,
+.header,
+.App__container,
+.stepper,
+.booking-step,
+.timetable,
+.fc-timeGridDay-view thead th:first-child,
+.fc-timeGridWeek-view thead th:first-child
+ {
+    background-color: transparent;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+.booking-step--touched .booking-step__body:not(.booking-step__body--open) {
+    border-color: #fff;
+    border-left-style: dashed;
+}
+
+.button--secondary {
+    color: #fff;
+}
+
+.react-datepicker__header,
+.react-datepicker {
+    background-color: transparent;
+    color: #fff;
+}
+
+.fc-timeGridWeek-view .fc-axis>span {
+    background: #243062;
+}
+
+.header__menu > .menu,
+.header__menu > .select.select--with-icon {
+	display: none;
+}
